@@ -1,4 +1,4 @@
-TELEGRAM_APP_NAME=Telega
-TELEGRAPH_BUNDLE_ID=co.one.Teleapp
+TELEGRAM_APP_NAME=AmbiTelegram
+TELEGRAPH_BUNDLE_ID=com.ambisafe.AmbiTelegram
 
 #include "Common.xcconfig"
