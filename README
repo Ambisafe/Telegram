@@ -1,0 +1,24 @@
+How to build:
+
+Step 1: Clone this Repo recursively to your computer:
+git clone https://github.com/peter-iakovlev/Telegram.git --recursive
+
+Reference: #265
+If there is an error saying that cloning SSignalKit and MtProtoKit are permission denied, you can manually navigate to their folder: submodules/MtProtoKit and thirdparty/SSignalKit, and clone from their repo manually.
+
+Reference: #290
+git submodule update --init --recursive --remote
+
+Step 2: Launch Telegraph.xcworkspace (assuming you installed Xcode 9+)
+
+Step 3: Create a config.h containing the App ID and App Hash you created in Telegram API console
+
+#define SETUP_API_ID(apiId) apiId = 12345;
+#define SETUP_API_HASH(apiHash) apiHash = @"put your hash here";
+Reference: #34
+
+Step 4: Change all instances of ../../config.h to ../config.h
+
+Step 5: Build (at this moment, there is a compile error due to the changed method signature in MTDatacenterAddress.h; hope they'll resolve soon...)
+
+Step 6: Run in Simulator
