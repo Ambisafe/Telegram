@@ -22,15 +22,12 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.ph.telegra.Telegraph</string>
+		<string>group.com.ambisafe.TelegramEnterprise</string>
 	</array>
 	<key>com.apple.developer.in-app-payments</key>
 	<array>
-		<string>merchant.ph.telegra.Telegraph</string>
-		<string>merchant.yandex.ph.telegra.Telegraph</string>
-		<string>merchant.sberbank.ph.telegra.Telegraph</string>
-		<string>merchant.sberbank.test.ph.telegra.Telegraph</string>
-		<string>merchant.privatbank.test.telergramios</string>
+		<!--<string>merchant.ph.telegra.Telegraph</string>-->
+		<string>merchant.com.ambisafe.AmbiTelegram</string>
 	</array>
 	<key>com.apple.developer.ubiquity-container-identifiers</key>
 	<array>
